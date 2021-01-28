@@ -8,3 +8,42 @@ Mac shortcut for file paths : right-click on file, Shift+Option reveals path
 CTRL-SHIFT-H shortcut key to preview HTML text file in atom text editor
 
 */
+
+
+.mainLogo {
+  width: 120px;
+  height: : 120px;
+  border-color: skyblue;
+  border-width: 10px;
+  border-style: solid;
+  border-radius:50%;
+  text-align: center;
+  float:left;
+}
+
+h1{
+  text-align: center;
+  background-color: rgba(45, 45, 45, .22)
+
+}
+
+h2{
+  top:0px;
+}
+
+
+/*
+alternate border radius
+border-radius:10px;
+border-radius:100px
+*/
+/*
+top:50px;
+bottom:50px;
+position:absolute;
+*/
+
+
+body {
+  text-align: center;
+}
