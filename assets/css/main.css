@@ -21,16 +21,24 @@ CTRL-SHIFT-H shortcut key to preview HTML text file in atom text editor
   float:left;
 }
 
-h1{
+h1 {
   text-align: center;
   background-color: rgba(45, 45, 45, .22)
 
 }
 
-h2{
+h2 {
   top:0px;
 }
 
+div {
+  background: url("images/Officemockup1.JPEG");
+}
+
+body {
+  background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+
+  }
 
 /*
 alternate border radius
@@ -41,6 +49,150 @@ border-radius:100px
 top:50px;
 bottom:50px;
 position:absolute;
+
+z-index: 2;
+
+
+red (#FF0000) and cyan (#00FFFF)
+green (#00FF00) and magenta (#FF00FF)
+blue (#0000FF) and yellow (#FFFF00)
+
+Color	Hex Code
+orange	#FF7F00
+cyan	#00FFFF
+raspberry	#FF007F
+
+
+Color	HSL
+red	hsl(0, 100%, 50%)
+yellow	hsl(60, 100%, 50%)
+green	hsl(120, 100%, 50%)
+cyan	hsl(180, 100%, 50%)
+blue	hsl(240, 100%, 50%)
+magenta	hsl(300, 100%, 50%)
+
+background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+
+background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+
+repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      blue 40px,
+      green 40px,
+      red 80px
+    );
+
+
+    repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+
+    transform: scale(2.1);
+
+    div:hover {
+      transform: scale(1.1);
+    }
+
+    p {
+  transform: skewX(-32deg);
+}
+
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0px 0px #f5f3ce;
+  }
+  *********************heart start *********************
+  <style>
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform:rotate(-45deg) ;
+
+  }
+  .heart::after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+
+</style>
+<div class="heart"></div>
+
+*********************heart end *********************
+
+********animation  with name and @keyframes identifier ********
+
+<style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+
+animation-name: colorful;
+  animation-duration: 1s;
+  }
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: yellow;
+  }
+}
+
+
+</style>
+<div id="rect"></div>
+******** end of animation  with name and @keyframes identifier ********
+
+
 */
 
 
