@@ -21,6 +21,17 @@ CTRL-SHIFT-H shortcut key to preview HTML text file in atom text editor
   float:left;
 }
 
+.theme {
+  width: 120px;
+  height: : 120px;
+  border-color: skyblue;
+  border-width: 10px;
+  border-style: solid;
+  border-radius:50%;
+  text-align: center;
+  float:left;
+}
+
 h1 {
   text-align: center;
   background-color: rgba(45, 45, 45, .22)
@@ -38,9 +49,13 @@ div {
 body {
   background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
 
+
+
   }
 
-/*
+/*TAKEN FROM CREECODECAMP
+
+NOTEES
 alternate border radius
 border-radius:10px;
 border-radius:100px
@@ -172,18 +187,26 @@ repeating-linear-gradient(
 
 animation-name: colorful;
   animation-duration: 1s;
+  animation-fill-mode: forwards;
+
+
   }
 
 @keyframes colorful {
   0% {
     background-color: blue;
+    top: 0px;
   }
 50% {
     background-color: red;
+    top: 50px;
+    opacity: 0.1;
+
   }
 
   100% {
     background-color: yellow;
+    top: 0px;
   }
 }
 
@@ -191,6 +214,93 @@ animation-name: colorful;
 </style>
 <div id="rect"></div>
 ******** end of animation  with name and @keyframes identifier ********
+
+
+animation-iteration-count: 5;, with @keyframes
+
+header and nav, the footer, main, div
+
+
+
+****************************form *********************************************
+<form>
+  <fieldset>
+    <legend>Choose one of these three items:</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Choice One</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Choice Two</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Choice Three</label>
+  </fieldset>
+</form>
+****************************date *********************************************
+
+
+<label for="pickdate">Preferred Date:</label>
+        <input type="date" id="pickdate" name="input1">
+
+        Here's an example:
+
+<p>
+Master Camper Cat officiated the cage match between Goro and Scorpion
+<time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.
+</p>
+***********************screen reader ******************************************
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+***********************footer sample ******************************************
+
+<footer>&copy; 2018 Camper Cat</footer>
+
+
+*****************tabindex sample ******************************************
+
+
+<div tabindex="1">I get keyboard focus, and I get it first!</div>
+
+<div tabindex="2">I get keyboard focus, and I get it second!</div>
+
+
+*****************media queery sample ******************************************
+
+@media (max-height: 800px)  {
+p {
+
+    font-size: 10px;
+
+  }
+
+  Here is an example that sets a body tag to 30% of the viewport's width.
+
+body { width: 30vw; }
+
+vw (viewport width): 10vw would be 10% of the viewport's width.
+vh (viewport height): 3vh would be 3% of the viewport's height.
+vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
+vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).
+
+*****************flex sample ******************************************
+https://cssreference.io/flexbox/ flex box options
+display: flex
+display:grid;
+
+grid-gap :10px 20px;
+if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.
+
+
+flex-direction:row;
+flex-direction:column;
+
+flex-grow, flex-shrink, and flex-basis properties can all be set together by using the flex property.
 
 
 */
