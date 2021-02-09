@@ -71,6 +71,7 @@ Su Mo Tu We Th Fr Sa
       1. Document title metadata goes between the head tags
       see https://htmlreference.io/base/ for good list of head and body options
       see https://github.com/JonKaric/head for good list of head options
+      see https://gist.github.com/imad-bouramana/3630b1f86b9f315e898a4e2451387d8d
 
       2.CSS file path within the <link> element,inside the <head> section
       eg : <link rel="stylesheet" type="text/css" href="css_file_directory">
@@ -144,7 +145,13 @@ Su Mo Tu We Th Fr Sa
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <link rel="stylesheet" href="assets/css/main.css" />
       <title>Scholarship Access Project</title>
-      <link rel="shortcut icon" type="image/png" href="FullStackWebDev/assets/images/favicon-16x16.png"/>
+      <link rel="shortcut icon" type="image/png" href="assets/images/favicon-16x16.png"/>
+    
+      <script type="text/javascript">
+        function test(){
+          window.alert('This is a test.');
+        }
+      </script>
     </head>
 
 
@@ -171,7 +178,15 @@ Su Mo Tu We Th Fr Sa
         <hr>
 
 
-    </body>
+    <h1>Sign Up</h1>
+    <form action="" method="POST">
+      <label for="username">Username</label>
+      <input name="username" placeholder="username" type="text" />
+      <label for="password">Password</label>
+      <input name="password" type="password" />
+      <button>Sign Up</button>
+    </form>
+
 
     <div class="theme">
       <p>Theme: The Scholarship Outreach Project is aimed at opening arms to
@@ -185,6 +200,10 @@ Su Mo Tu We Th Fr Sa
           by bringing opportunities to intellectually deserving ones.
          </p>
     </div>
+
+    </body>
+
+    
 
 
 
