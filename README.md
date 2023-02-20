@@ -16,10 +16,27 @@ graph TD;
 
 Expanded Logic - MEAN Stack
 
+---
+
+```mermaid
+graph TD;
+      A[Full Stack Web Dev.]-->B[Front-End, Client Side];
+    A-->C[Back-End, Server Side];
+    B-->D[JavaScript Lang.];
+    B-->E[Angular Framework];
+    
+    C-->F[NodeJS];
+    C-->G[Express];
+    A-->H[Database];
+```
+---
 <p align="center">
   <img width="500" height="208" src="https://github.com/uptimistic/FullStackWebDev/blob/main/assets/MEAN_Stack.png">
 </p>
 
+---
+
+Expanded Logic - MERN Stack
 ---
 ```mermaid
 graph TD;
@@ -34,27 +51,13 @@ graph TD;
 ```
 
 ---
-
-
-Expanded Logic - MERN Stack
-
 <p align="center">
   <img width="500" height="208" src="https://github.com/uptimistic/FullStackWebDev/blob/main/assets/MERN_Stack.png">
 </p>
 
 ---
 
-```mermaid
-graph TD;
-    A[Full Stack Web Dev.]-->B[Front-End, Client Side];
-    A-->C[Back-End, Server Side];
-    B-->D[JavaScript Lang.];
-    B-->E[React Framework];
-    
-    C-->F[NodeJS];
-    C-->G[Express];
-    A-->H[Database];
-```
+
 ---
 Summary:
 ---
