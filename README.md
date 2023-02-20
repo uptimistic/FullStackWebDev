@@ -37,9 +37,8 @@ graph TD;
 Expanded Logic - MEAN Stack
 
 <p align="center">
-  <img width="500" height="208" src="https://github.com/uptimistic/FullStackWebDev/blob/main/assets/MERN_Stack.jpeg">
+  <img width="500" height="208" src="https://github.com/uptimistic/FullStackWebDev/blob/main/assets/MERN_Stack.png">
 </p>
-
 
 
 ```mermaid
